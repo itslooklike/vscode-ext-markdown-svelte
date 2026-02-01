@@ -1,6 +1,6 @@
 {
   "name": "markdown-svelte",
-  "displayName": "Markdown Svelte syntax highlight",
+  "displayName": "Markdown Svelte Syntax Highlight",
   "description": "",
   "version": "0.1.0",
   "publisher": "itslooklike",
@@ -16,16 +16,18 @@
   "keywords": [
     "svelte",
     "highlight",
-    "markdown"
+    "markdown",
+    "mdx"
   ],
-  "icon": "icons/logo.png",
+  "icon": "icons/svelte-md-logo.png",
   "contributes": {
     "grammars": [
       {
         "scopeName": "markdown.svelte.codeblock",
         "path": "./syntaxes/codeblock.json",
         "injectTo": [
-          "text.html.markdown"
+          "text.html.markdown",
+          "source.mdx"
         ],
         "embeddedLanguages": {
           "meta.embedded.block.svelte": "svelte"

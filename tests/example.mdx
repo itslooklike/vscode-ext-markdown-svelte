@@ -1,0 +1,29 @@
+# MDX Test File
+
+This is an `.mdx` file to test Svelte syntax highlighting.
+
+## Svelte Code Block
+
+⚠️ **Problem**: This extension doesn't highlight Svelte in MDX files!
+
+```svelte
+<script>
+  let count = 0
+
+  function increment() {
+    count += 1
+  }
+</script>
+
+<button on:click={increment}>
+  Clicks: {count}
+</button>
+
+<style>
+  button {
+    background: #ff3e00;
+    color: white;
+    padding: 10px 20px;
+  }
+</style>
+```
