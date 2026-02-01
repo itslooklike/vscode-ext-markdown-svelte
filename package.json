@@ -1,7 +1,7 @@
 {
   "name": "markdown-svelte",
   "displayName": "Markdown Svelte Syntax Highlight",
-  "description": "",
+  "description": "Adds Svelte syntax highlighting in Markdown and MDX code blocks",
   "version": "1.0.0",
   "publisher": "itslooklike",
   "repository": {
