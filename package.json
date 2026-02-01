@@ -2,7 +2,7 @@
   "name": "markdown-svelte",
   "displayName": "Markdown Svelte Syntax Highlight",
   "description": "Adds Svelte syntax highlighting in Markdown and MDX code blocks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "itslooklike",
   "repository": {
     "url": "https://github.com/itslooklike/vscode-ext-markdown-svelte.git"
