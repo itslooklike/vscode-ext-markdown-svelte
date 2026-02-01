@@ -1,0 +1,36 @@
+{
+  "name": "markdown-svelte",
+  "displayName": "Markdown Svelte syntax highlight",
+  "description": "",
+  "version": "0.1.0",
+  "publisher": "itslooklike",
+  "repository": {
+    "url": "https://github.com/itslooklike/vscode-ext-markdown-svelte.git"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "svelte",
+    "highlight",
+    "markdown"
+  ],
+  "icon": "icons/logo.png",
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "markdown.svelte.codeblock",
+        "path": "./syntaxes/codeblock.json",
+        "injectTo": [
+          "text.html.markdown"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.svelte": "svelte"
+        }
+      }
+    ]
+  }
+}
